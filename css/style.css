@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('../font/bebas-neue-book/BebasNeueBook.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../font/bebas_neue/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Rage Italic';
+    src: url('../font/Rage Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yoga Flame';
+    src: url('../font/YogaFlame/HYogaFlame-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #0F0F0F
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rage Italic';
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    margin: 0;
+    font-size: 5em;
+    z-index: 100;
+    color: #fff
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rage Italic';
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    margin: 0;
+    font-size: 4em;
+    z-index: 100;
+    color: #fff
+}
+
+h3 {
+    text-align: center;
+    font-family: "BebasNeueBook";
+    text-shadow: 2px 2px 50px #000, 1px 1px 50px #000;
+    font-size: 4em;
+    color: #fff
+}
+
+p1 {
+    text-align: center;
+    font-family: "BebasNeueBook";
+    text-shadow: 2px 2px 50px #000, 1px 1px 50px #000;
+    color: #fff;
+}
+
+.container {
+    margin: 4% auto;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #0F0F0F;
+    color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #D5D5D5;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel img {
+    width: 100%;
+}
+
+.aaron-port {
+    padding: 10em 0;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 100% 0;
+}
+
+.aaron_img {
+    background: url(../img/container_bg.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 175%;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.bg-container {
+    background-color: #0F0F0F;
+    width: 100%;
+    margin: 0;
+    height: 20%;
+}
+
+#about-aaron {
+    padding-top: 7em;
+}
+
+#Aaron_img {
+    padding-top: 3em;
+}
+
+@media (max-width: 600px) {
+    .aaron_img {
+        transform: translateX(0%);
+        height: 145%;
+    }
+    .carousel-caption {
+        display: none;
+    }
+    #icon {
+        max-width: 150px;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+}
+
+#about-goals {
+    padding-top: 6em;
+}
+
+.filler-parallax {
+    padding: 10em 0;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 100% 0;
+}
+
+.filler {
+    background: url(../img/container_bg.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 0;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.filler-text {
+    top: 50%;
+    transform: translateY(350%);
+}
+
+footer {
+    width: 100%;
+    background-color: #0F0F0F;
+    padding: 5%;
+    color: #fff;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .filler-text {
+        transform: translateY(350%);
+    }
+    .fa {
+        padding: 20px;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .filler {
+        height: 145%;
+    }
+    .filler-text {
+    top: 50%;
+    transform: translateY(400%);
+        font-size:3em;
+}
+
+.carousel-caption {
+    display: none;
+}
+
+#icon {
+    max-width: 150px;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+
+}
