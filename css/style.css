@@ -161,6 +161,8 @@ p1 {
     }
 }
 
+
+
 .Filler_Mid_Parallax {
     padding: 15em 0;
     color: #fff;
@@ -175,12 +177,21 @@ p1 {
     background: url(../img/container_bg.jpg) no-repeat;
     background-size: cover;
     position: absolute;
+    z-index: 1;
     width: 100%;
     height: 225%;
     top: 0;
     opacity: .75;
    
 }
+
+    .content-wrap {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 1140px;
+        position: relative;
+        z-index: 2;
+    }
 
 @media (max-width: 900px) {
     .Filler_Mid_Img {

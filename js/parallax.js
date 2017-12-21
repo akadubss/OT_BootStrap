@@ -22,7 +22,7 @@ $(document).ready(function () {
             duration: '100%'
         })
         .setTween(TweenMax.from('.Filler_Mid_Img', 1, {
-            y: '-70%',
+            y: '-25%',
             ease: Power0.easeNone
         }))
         .addTo(controller);
