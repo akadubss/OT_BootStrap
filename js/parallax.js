@@ -15,14 +15,14 @@ $(document).ready(function () {
         }))
         .addTo(controller);
 
-    // parallax scene Training
+    // Mid
     var slideParallaxScene = new ScrollMagic.Scene({
-            triggerElement: '.filler-parallax',
+            triggerElement: '.Filler_Mid_Parallax',
             triggerHook: 1,
-            duration: '400%'
+            duration: '100%'
         })
-        .setTween(TweenMax.from('.filler', 1, {
-            y: '-25%',
+        .setTween(TweenMax.from('.Filler_Mid_Img', 1, {
+            y: '-70%',
             ease: Power0.easeNone
         }))
         .addTo(controller);
